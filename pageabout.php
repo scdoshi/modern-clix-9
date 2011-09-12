@@ -6,7 +6,7 @@ Template Name: About Page
 
 <?php get_header(); ?>
 
-	<div id="content" class="col span-8">
+	<div id="content" class="col span-9 nudge-1">
 		<?php if (have_posts()) : ?>
 		
 			<?php while (have_posts()) : the_post(); ?>
@@ -29,7 +29,7 @@ Template Name: About Page
 						</ul>
 					</div>
 
-					<div class="post-content span-8 nudge-2">
+					<div class="post-content span-6 nudge-2">
 						<?php the_content('Continue reading...'); ?>
 					</div>
 				</div>

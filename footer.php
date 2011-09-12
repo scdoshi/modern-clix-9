@@ -1,5 +1,5 @@
 		<div id="footer" class="col span-12">
-			<h3><span class="amp">the</span> project</h3>
+			<h3><span class="amp"></span> </h3>
 		</div>
 
 		<div id="footnotes" class="col span-12">

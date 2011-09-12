@@ -25,7 +25,7 @@
 		</div>		
 		
 		<div id="header" class="col last span-12">
-			<h2><br /></h2><h1><a href="<?php bloginfo('url'); ?>"><h1><span class="low"> 9 </span> <br /><span class="low"> ____________ </span>Nine</h1></a></h1>
+			<h1><a href="<?php bloginfo('url'); ?>"><span class="low"> 9 </span> <br /><span class="low"> ____________ </span>Nine</a></h1>
 		</div>
 
 		<hr />

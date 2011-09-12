@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-	<div id="content" class="col span-8">
-		<div class="col last span-6">
+	<div id="content" class="col span-9 nudge-1">
+		<div class="col last span-9">
 			<h4 class="ver small">Latest Entries</h4>	
 		</div>
 		
@@ -62,7 +62,5 @@
 	</div>	
 	
 	<hr />
-
-	<?php get_sidebar(); ?>
 
 	<?php get_footer(); ?>

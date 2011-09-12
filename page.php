@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div id="content" class="col span-8">
+	<div id="content" class="col span-9 nudge-1">
 		<?php if (have_posts()) : ?>
 		
 			<?php while (have_posts()) : the_post(); ?>

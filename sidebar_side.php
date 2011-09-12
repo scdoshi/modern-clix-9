@@ -1,5 +1,5 @@
-<div id="sidebar" class="last span-12">
-	<div class="col span-3">
+<div id="sidebar" class="col last span-4">
+	<div class="section">
 		<h4 class="ver small">About</h4>
 		<p><?php echo get_bloginfo('description'); ?></p>
 	</div>
@@ -38,12 +38,19 @@
 		 5) For a better and consistent look, ALWAYS use a title
 		 and description for each section.
 	-->	
-	<!-- ul class="widgetized-sidebar nudge-3 span-3">
+	<ul class="widgetized-sidebar">
 	<h4 class="ver small">Recently <span class="low">on</span> Twitter</h4>
 		<?php if ( !function_exists('dynamic_sidebar')
 				|| !dynamic_sidebar() ) : ?>
 		<?php endif; ?>
-	</ul -->
+	</ul>
+	
+	<div class="section">
+		<h4 class="ver small">Search</h4>
+		<p>Enter the query to search and hit <kbd>enter</kbd>.</p>
+		
+		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+	</div>
 	
 	<!-- Uncomment if you want to display the tag cloud in the homepage -->
 	
@@ -52,7 +59,7 @@
 		<?php wp_tag_cloud(); ?>
 	</div> -->
 	
-	<div class="col span-3">
+	<div class="section">
 		<h4 class="ver small">Blogroll</h4>
 		<p>From when I had a proper blog.</p>
 
@@ -66,13 +73,6 @@
 		<ul class="nav">
 			<?php wp_list_bookmarks('title_li=&categorize=0&category_name=frequent%20visits'); ?>
 		</ul>
-	</div>
-	
-	<div class="col span-6 last">
-		<h4 class="ver small">Search</h4>
-		<p>Enter the query to search and hit <kbd>enter</kbd>.</p>
-		
-		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 	</div>
 
 </div>
