@@ -20,12 +20,12 @@
 						</div>
 					<?php elseif (in_category('Snippet')): ?>
 						<div class="post-meta col span-2">
-							<ul class="nav"><li><?php the_time('F j, Y'); ?></li></ul>
+							<ul class="nav">
+								<li><?php the_time('F j, Y'); ?></li>
+								<li><a href="<?php echo get_category_link(get_cat_ID('Snippet')); ?>">Snippet</a></li>
+							</ul>
 						</div>
-						<div class="post-meta span-2 col">
-							<ul class="nav"><li><a href="<?php echo get_category_link(get_cat_ID('Snippet')); ?>">Snippet</a></li></ul>
-						</div>
-						<div class="post-content col span-8 last">
+						<div class="post-content span-6 nudge-2">
 							<?php the_content('Continue reading...'); ?>
 						</div>
 					<?php else : ?>
@@ -62,5 +62,7 @@
 	</div>	
 	
 	<hr />
-
+	
+	<?php get_sidebar(); ?>
+	
 	<?php get_footer(); ?>

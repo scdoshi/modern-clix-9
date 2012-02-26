@@ -1,6 +1,6 @@
-		<div id="footer" class="col span-12">
+		<!-- div id="footer" class="col span-12">
 			<h3><span class="amp"></span> </h3>
-		</div>
+		</div -->
 
 		<div id="footnotes" class="col span-12">
 			<p>Copyright &copy; 2008&ndash;2010. All rights reserved.</p>

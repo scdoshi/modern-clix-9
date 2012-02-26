@@ -90,7 +90,7 @@ a {
 }
 
 a:hover {
-	color: #0F83DB;
+	color: #E5000B;
 }
 
 acronym {
@@ -148,8 +148,14 @@ kbd {
 	margin-top: .45em;
 }
 
+/*
 #header h1 a, #header h2 {
 	color: #000;
+}
+*/
+
+#header h1:hover {
+	color: #E5000B;
 }
 
 /* ------------------------------------------ [ Content ] */
@@ -201,10 +207,14 @@ ul.navlinks {
 /* -------------------------------------------- [ Post ] */
 
 .post {
-	padding: 1em 0 2em 0;
+	padding: 1em 0 1.5em 0;
 	border-top: 1px solid #ccc;
 	overflow: hidden;
 	clear: both;
+}
+
+.post-content {
+	padding-top: 1.5em;
 }
 
 .post-content h5, .post-content code {
@@ -229,10 +239,13 @@ ul.navlinks {
 
 .post-content blockquote {
 	margin: 0 3.2em 0 3.2em;
+	color: #222;
+	border-left: 5px solid #ddd;
+	padding-left: 1em;
 }
 
 .post-content blockquote p {
-	width: 30em;
+	width: 33em;
 	padding: 0;
 }
 
@@ -374,6 +387,7 @@ textarea {
 	margin: 0;
 	padding: 1em 0 0 0;
 	overflow: hidden;
+	border-top: 1px solid #333333;
 }
 
 #sidebar h4 {
